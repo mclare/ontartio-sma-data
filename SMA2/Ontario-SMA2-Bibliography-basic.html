@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_C5HGFMXG" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Algoma University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Algoma University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-algoma-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-algoma-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:36:31 AM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:36:31 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:43 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_QRKMJUY8">2017-20 Strategic Mandate Agreement: Algoma University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TRYYA28J" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Brock University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Brock University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-brock-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-brock-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:38:41 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:38:41 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:41 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_CBQEDPUV">2017-20 Strategic Mandate Agreement: Brock University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HGLAMFRJ" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Carleton University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Carleton University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-carleton-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-carleton-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:38:54 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:38:54 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:38 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_5RUQ6EW3">2017-20 Strategic Mandate Agreement: Carleton University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_5TAMGW6H" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Lakehead University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Lakehead University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-lakehead-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-lakehead-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:39:07 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:39:07 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:36 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MY86W67C">2017-20 Strategic Mandate Agreement: Lakehead University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WFSCMRIZ" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Laurentian University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Laurentian University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-laurentian-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-laurentian-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:39:19 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:39:19 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:34 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_WKQR8NY7">2017-20 Strategic Mandate Agreement: Laurentian University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PJA7BIVZ" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: McMaster University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>McMaster University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-mcmaster-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-mcmaster-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:39:31 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:39:31 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/14/2019, 10:11:56 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_XAHU85LP">2017-20 Strategic Mandate Agreement: McMaster University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8LC3J2DN" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Nipissing University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nipissing University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-nipissing-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-nipissing-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:39:40 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:39:40 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:30 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_RRJVIAB2">2017-20 Strategic Mandate Agreement: Nipissing University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6XY63GT8" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Ontario College of Art and Design (OCAD) University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ontario College of Art and Design (OCAD) University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-ontario-college-art-and-design-ocad-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-ontario-college-art-and-design-ocad-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:39:52 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:39:52 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:28 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_EFU3IZ8A">2017-20 Strategic Mandate Agreement: Ontario College of Art and Design (OCAD) University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6WF9C7GP" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Queen’s University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Queen's University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-queens-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-queens-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:04 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:04 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:26 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_REIJE2FG">2017-20 Strategic Mandate Agreement: Queen’s University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_536TXZ2L" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Ryerson University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ryerson University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-ryerson-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-ryerson-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:10 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:10 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:24 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_FC29MU9A">2017-20 Strategic Mandate Agreement: Ryerson University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MU8EFGJG" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Trent University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Trent University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-trent-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-trent-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:16 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:16 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:22 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_YY5I8FTF">2017-20 Strategic Mandate Agreement: Trent University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KY7BTTDX" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Université de Hearst | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Université de Hearst</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-universite-de-hearst">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-universite-de-hearst</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:24 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:24 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:51:57 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_77CC4JHI">2017-20 Strategic Mandate Agreement: Université de Hearst | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_T8F4KMYS" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: University of Guelph | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>University of Guelph</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-guelph">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-guelph</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:32 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:32 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/14/2019, 10:11:00 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MEBLHG5Y">2017-20 Strategic Mandate Agreement: University of Guelph | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ERC7X9SJ" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: University of Ontario Institute of Technology (UOIT) | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>University of Ontario Institute of Technology (now Ontario Tech University)</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-ontario-institute-technology-uoit">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-ontario-institute-technology-uoit</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:39 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:39 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/14/2019, 10:10:44 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_NQNYCF2L">2017-20 Strategic Mandate Agreement: University of Ontario Institute of Technology (UOIT) | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UASVZFRG" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: University of Ottawa | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>University of Ottawa</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-ottawa">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-ottawa</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:50 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:50 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:14 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_FT6WHCCN">2017-20 Strategic Mandate Agreement: University of Ottawa | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_G6NKBXI7" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: University of Toronto | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>University of Toronto</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-toronto">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-toronto</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:40:57 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:40:57 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:12 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_P8YRR7RF">2017-20 Strategic Mandate Agreement: University of Toronto | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HRXSPBV2" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: University of Waterloo | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>University of Waterloo</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-waterloo">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-waterloo</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:41:06 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:41:06 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:09 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_IA2QPVSP">2017-20 Strategic Mandate Agreement: University of Waterloo | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KIJKAPU3" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: University of Windsor | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>University of Windsor</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-windsor">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-university-windsor</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:41:14 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:41:14 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:06 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_5GPWFAA4">2017-20 Strategic Mandate Agreement: University of Windsor | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_S2C8SHUC" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Western University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Western University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-western-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-western-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:41:25 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:41:25 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:04 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_X9HLTPJU">2017-20 Strategic Mandate Agreement: Western University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MWXS7GJ6" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: Wilfrid Laurier University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wilfred Laurier University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-wilfrid-laurier-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-wilfrid-laurier-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:41:32 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:41:32 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:52:01 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_KXNHS49D">2017-20 Strategic Mandate Agreement: Wilfrid Laurier University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_N8CQ77V3" class="item webpage">
+			<h2>2017-20 Strategic Mandate Agreement: York University | Ontario.ca</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>York University</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>MTCU</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-york-university">https://www.ontario.ca/page/2017-20-strategic-mandate-agreement-york-university</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>© Queen’s Printer for Ontario, 2012–19</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 11:41:39 AM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 11:41:39 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 11:51:59 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_G93L6G2W">2017-20 Strategic Mandate Agreement: York University | Ontario.ca					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
