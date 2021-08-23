@@ -1,7 +1,7 @@
 # About
 After reading all of Ontario’s University SMAs it is clear that they all share the following basic structure, but many of the common metrics had not been compared to each other.
 
-SMA2 (2017-2020) had a few common metrics, but the measures were not always common. The institional metrics were not common, and many of the measures were dificult to apply without internal data.
+SMA2 (2017-2020) had a few common metrics, but the measures were not always common. The institutional metrics were not common, and many of the measures were difficult to apply without internal data.
 
 SMA3 (2020-2025) has common metrics and measures, though the implementation faced challenges.
 
@@ -15,9 +15,9 @@ Ontario University SMA Comparisons Dashboards
   * [University Metric Weights & Allocations](https://mattclare.ca/pse-policy/2020/sma3-institutional-metric-weights-and-allocations-dashboard/)
 * [SMA2 University Metrics & Targets In a Dashboard](https://mattclare.ca/pse-policy/2019/sma2-metrics-and-targets/)
 
-This data is analyized at [Matt Clare's Post-Secondary Policy Blog](https://mattclare.ca/pse-policy/)
+This data is analyzed at [Matt Clare's Post-Secondary Policy Blog](https://mattclare.ca/pse-policy/)
 
-All Onatio Canada SMAs can be found on the Ontario government's web site for [College and university Strategic Mandate Agreements](https://www.ontario.ca/page/all-college-and-university-strategic-mandate-agreements).
+All Ontario Canada SMAs can be found on the Ontario government's web site for [College and university Strategic Mandate Agreements](https://www.ontario.ca/page/all-college-and-university-strategic-mandate-agreements).
 
 ## What are SMAs?
 
